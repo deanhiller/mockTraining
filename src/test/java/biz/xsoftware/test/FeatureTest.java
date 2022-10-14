@@ -5,12 +5,12 @@ import biz.xsoftware.impl.usersvc.OrdersController;
 import biz.xsoftware.orders.api.OrdersService;
 import junit.framework.TestCase;
 
-public class FeatureTest extends TestCase {
+public abstract class FeatureTest extends TestCase {
 
 
     protected OrdersService ordersSvc;
 
-    protected MockCacheService mockCacheSvc;
+    protected MockCacheService1 mockCacheSvc;
 
     @Override
     protected void setUp() throws Exception {

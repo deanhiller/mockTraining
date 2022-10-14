@@ -2,12 +2,12 @@ plugins {
     id 'java'
 }
 
-sourceCompatibility = JavaVersion.VERSION_1_8
-
 repositories {
     mavenCentral()
 }
 
 dependencies {
     testImplementation 'junit:junit:4.11'
+
+    testImplementation 'org.webpieces.core:core-mock:2.1.37'
 }

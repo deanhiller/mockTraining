@@ -3,8 +3,6 @@ package biz.xsoftware.impl.usersvc;
 import biz.xsoftware.orders.api.OrderRequest;
 import biz.xsoftware.orders.api.OrderResponse;
 import biz.xsoftware.orders.api.OrdersService;
-import org.graalvm.compiler.core.common.type.ArithmeticOpTable;
-import org.graalvm.compiler.graph.Node;
 
 import java.util.concurrent.CompletableFuture;
 
